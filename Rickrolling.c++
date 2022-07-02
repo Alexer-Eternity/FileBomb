@@ -1,9 +1,9 @@
 #include <iostream>
-qqusing namespace std;
+using namespace std;
 
 int main() {
 
-while(1) system("openhttps://www.youtube.com/watch?v=dQw4w9WgXcQ");
+while(1) system("open https://www.youtube.com/watch?v=dQw4w9WgXcQ");
 
 
 return 0;
