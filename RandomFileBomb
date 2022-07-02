@@ -3,16 +3,12 @@
 using namespace std;
 	int main() {
 	int i = 10;
-	// Create a text string, which is used to output the text file
 	string myText;
 
-// Read from the text file
 	ifstream Random("filename.txt");
 
-// Use a while loop together with the getline() function to read the file line by line
 	getline (Random, myText,2000)
 
-// Close the file
 	
 	while (i++){
 	getline (Random, myText,i)
