@@ -5,7 +5,7 @@ int main() {
 #ifdef _WIN32
     while(1) system("start https://www.youtube.com/watch?v=dQw4w9WgXcQ");
 #else
-    system("open https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+    while(1) system("open https://www.youtube.com/watch?v=dQw4w9WgXcQ");
 #endif
 
 
